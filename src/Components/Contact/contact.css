@@ -1,0 +1,177 @@
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+  .contactwrapper {
+    padding: 50px 0px;
+  }
+
+  .contactRow {
+    padding-top: 70px;
+  }
+
+  .contactSubTitle{
+    color: #2641c2;  
+  }
+
+  .contactDetails{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+  }
+
+  .contactHeading1{
+    text-align: center;
+  }
+
+  .contactBox{
+    text-align: center;
+  }
+
+  .contactcol{
+    padding-bottom: 50px;
+  }
+
+  .contactForm {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    z-index: 2;
+    background-color: #fff;
+    font-size: 1.1rem;
+  }
+  
+  .btn-5 {
+    background-image: linear-gradient(
+      to right,
+      #2641c2 0%,
+      #01bffd 51%,
+      #2641c2 100%
+    );
+    color: #fff;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 1.1rem;
+  }
+  
+  .btn-5:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+  }
+
+}
+
+/* // Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) {
+
+  .contactDetails{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+  }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .contactDetails{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+  }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .contactwrapper {
+    padding: 150px 0px;
+  }
+  
+  .contactBox {
+    display: flex;
+    margin-top: 25px;
+  }
+  
+  .contactRow {
+    padding-top: 70px;
+  }
+
+  .contactDetails{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+  }
+  
+  .contactTitle {
+    text-align: left;
+  }
+  .contactMainTitle {
+    text-align: center;
+  }
+  
+  .contactHeading {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .contactHeading h6 {
+    font-size: 1.3rem;
+  }
+  
+  .contactIcon {
+    /* padding-top: 15px; */
+    font-size: 23px;
+    
+  }
+  
+  .phoneIcon {
+    rotate: 45deg;
+  }
+  
+  .contactDiscription {
+    text-align: left;
+  }
+  
+  .contactForm {
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    z-index: 2;
+    background-color: #fff;
+    font-size: 1.3rem;
+  }
+  
+  .btn-5 {
+    background-image: linear-gradient(
+      to right,
+      #2641c2 0%,
+      #01bffd 51%,
+      #2641c2 100%
+    );
+    color: #fff;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 1.1rem;
+  }
+  
+  .btn-5:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+  }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}

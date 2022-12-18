@@ -1,0 +1,153 @@
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+
+    .skillsWrapper{
+        padding: 50px 0px;
+    }
+
+    .skillsHeading{
+        text-align: center;
+    }
+
+    .skillsSubTitle{
+        color: #2641c2;  
+    }
+
+    .buttonRow{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .buttonRow1{
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .buttonCol{
+        padding-top: 20px;
+    }
+
+    .btn-group{
+        width: -webkit-fill-available;
+    }
+
+    .buttonIcon{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    .btn-3 {
+        margin-top: 20px;
+        background-image: linear-gradient(to right, #2641C2 0%, #01BFFD  51%, #2641C2  100%);
+        color:#fff;
+        transition: 0.5s;
+        background-size: 200% auto;
+        font-size: 1.1rem;
+        border-radius: 0;
+      }
+    
+      .btn-3:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0 0 20px rgb(158, 158, 158);
+        border: none;
+      }
+
+      .dropdownArea{
+        width: -webkit-fill-available;
+    }
+
+    .progressTitle{
+        height: 2px;
+    }
+    
+    .progressBar{
+        width: 100%;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .skillsWrapper{
+        padding: 150px 0px;
+    }
+    
+    .skillsHeading{
+        text-align: center;
+    }
+    
+    .buttonRow{
+        margin: 20px;
+        padding-top: 50px;
+    }
+    .buttonRow1{
+        margin: 20px;
+    }
+    
+    .btn-group{
+        width: -webkit-fill-available;
+    }
+    
+    .btn-3 {
+        margin-top: 20px;
+        background-image: linear-gradient(to right, #2641C2 0%, #01BFFD  51%, #2641C2  100%);
+        color:#fff;
+        transition: 0.5s;
+        background-size: 200% auto;
+        font-size: 1.1rem;
+        border-radius: 0;
+      }
+    
+      .btn-3:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0 0 20px rgb(158, 158, 158);
+      }
+    
+    .mainHeading{
+        padding-top: 18px;
+        font-size: 1.1rem;
+    }
+    
+    .buttonIcon{
+        padding-top: 35px;
+        font-size: 25px;
+    }
+    
+    .dropdownArea{
+        width: -webkit-fill-available;
+    }
+    
+    .progressTitle{
+        height: 2px;
+    }
+    
+    .progressBar{
+        width: 100%;
+    }
+
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}

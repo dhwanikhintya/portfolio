@@ -1,0 +1,101 @@
+
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+  .aboutwrapper{
+    padding: 50px 0px;
+}
+
+.aboutHeading{
+  text-align: center;
+}
+
+.aboutSubTitle{
+  color:#2641C2;
+}
+
+.aboutText{
+  padding-top: 25px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btn-2 {
+  margin-top: 20px;
+  background-image: linear-gradient(to right, #2641C2 0%, #01BFFD  51%, #2641C2  100%);
+  color:#fff;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 1.1rem;
+}
+
+.btn-2:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px #eee;
+}
+
+}
+
+/* // Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .aboutwrapper{
+    padding: 150px 0px;
+}
+
+.aboutHeading{
+    text-align: center;
+}
+
+.aboutText{
+    padding-top: 75px;
+    font-size: 1.3rem;
+    text-align: left;
+}
+.workLink{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.aboutNum{
+padding-left: 80px;
+}
+
+.btn-2 {
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #2641C2 0%, #01BFFD  51%, #2641C2  100%);
+    color:#fff;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 1.1rem;
+  }
+
+  .btn-2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+  }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}

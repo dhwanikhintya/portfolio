@@ -1,0 +1,138 @@
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+
+  .projectwrapper{
+    padding: 50px 0px;
+}
+
+.projectsSubTitle{
+  color: #2641c2;  
+}
+
+.mainRow{
+  padding-top: 20px;
+}
+
+.projectsHeading{
+  text-align: center;
+}
+
+.projectCard{
+  margin-top: 50px;
+}
+
+.projectCard{
+  text-align: center;
+background-color: #fff;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.projectCard:hover {
+  background-position: right center; /* change the direction of the change here */
+  text-decoration: none;
+  box-shadow: 0 0 20px rgb(149, 149, 149);
+}
+
+.btn-4 {
+  background-image: linear-gradient(to right, #2641C2 0%, #01BFFD  51%, #2641C2  100%);
+  color:#fff;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 1.1rem;
+}
+
+.btn-4:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px #eee;
+}
+
+}
+
+/* // Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) {
+  .mainpara{
+    text-align: center;
+    display: inline-flex;
+  }
+
+  .mainbody{
+    padding: 10px;
+  }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  .projectwrapper{
+    padding: 150px 0px;
+}
+
+.projectsHeading{
+    text-align: center;
+}
+
+.projectCard{
+    text-align: center;
+background-color: #fff;
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+  
+  .projectCard:hover {
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(149, 149, 149);
+  }
+
+.cardImag{
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.maintitle {
+font-size: 1.5rem;
+}
+
+.mainpara{
+font-size: 1.3rem;
+}
+
+.mainRow{
+    padding-top: 70px;
+}
+.btn-4 {
+    background-image: linear-gradient(to right, #2641C2 0%, #01BFFD  51%, #2641C2  100%);
+    color:#fff;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 1.1rem;
+  }
+
+  .btn-4:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+  }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}

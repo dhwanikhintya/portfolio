@@ -1,0 +1,81 @@
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+    .footerwrapper{
+        padding: 0.5rem;
+        background-color: black;
+    }
+    .iconBox{
+        color: white;
+        text-align: center;
+    }
+    
+    .mainIcon{
+        margin: 10px;
+        font-size: 1.5rem;
+    
+    }
+    
+    .footerHeading{
+        font-size: 12px;
+        padding-top: 5px;
+        text-align: center;
+        color: white;
+        margin-bottom: -0.1rem;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) {
+    .footerHeading{
+        font-size: 16px;
+        padding-top: 5px;
+        text-align: center;
+        color: white;
+        margin-bottom: -0.1rem;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .footerwrapper{
+        padding: 0.5rem;
+        background-color: black;
+    }
+    
+    .iconBox{
+        color: white;
+        text-align: center;
+    }
+    
+    .mainIcon{
+        margin: 10px;
+        font-size: 1.5rem;
+    
+    }
+    
+    .footerHeading{
+        padding-top: 5px;
+        text-align: center;
+        color: white;
+        margin-bottom: -0.1rem;
+    }
+    
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
